@@ -1,0 +1,100 @@
+Table_ID,Parameter,Value,Unit,Condition,Source_Doc,Notes
+DIM-001,Length overall (LOA),275,m,—,01-hull-form-selection.md,—
+DIM-002,Beam overall (BOA),80,m,—,01-hull-form-selection.md,—
+DIM-003,Depth (moulded),38,m,To main deck,01-hull-form-selection.md,—
+DIM-004,Operating draft,22,m,Lift operations,01-hull-form-selection.md,—
+DIM-005,Transit draft,12,m,Transit mode,01-hull-form-selection.md,—
+DIM-006,Survival draft,26,m,Storm survival,01-hull-form-selection.md,—
+DIM-007,Pontoon length,245,m,Each pontoon,01-hull-form-selection.md,—
+DIM-008,Pontoon width,18,m,Each pontoon,01-hull-form-selection.md,—
+DIM-009,Pontoon height,12,m,Each pontoon,01-hull-form-selection.md,—
+DIM-010,Column width,18,m,Square columns,01-hull-form-selection.md,—
+DIM-011,Number of columns,8,count,4 per hull,01-hull-form-selection.md,—
+DIM-012,Channel length,135,m,Open channel between hulls,06-moon-pool-design.md,—
+DIM-013,Channel width,20,m,Clear opening,06-moon-pool-design.md,—
+DIM-014,Freeboard at operating draft,16,m,Main deck to WL,01-hull-form-selection.md,—
+DISP-001,Lightship weight,72000,tonnes,—,01-hull-form-selection.md,Including equipment
+DISP-002,Operating displacement,135000,tonnes,Draft 22 m,03-hydrodynamic-analysis.md,—
+DISP-003,Steel weight,42000,tonnes,—,05-structural-design.md,All hull and superstructure steel
+DISP-004,Ballast capacity,68400,m³,Total all tanks,10-stability-ballast.md,40 tanks total
+DISP-005,Fuel capacity,8000,m³,MGO,09-power-generation.md,~6800 tonnes
+STAB-001,KB,8.16,m,Operating draft 22 m,10-stability-ballast.md,—
+STAB-002,BM (transverse),7.63,m,Operating draft 22 m,10-stability-ballast.md,—
+STAB-003,KG,14.14,m,Operating condition,10-stability-ballast.md,Lightship + deadweight
+STAB-004,GM (transverse),1.65,m,Operating condition,10-stability-ballast.md,Minimum required: 1.0 m
+STAB-005,Waterplane area,2592,m²,Operating draft 22 m,10-stability-ballast.md,8 columns
+STAB-006,Damaged heel (with cross-flooding),0.9,degrees,One compartment flooded,10-stability-ballast.md,MODU Code limit: 17°
+HYDRO-001,Heave natural period,27.6,s,Operating draft,03-hydrodynamic-analysis.md,Above wave band
+HYDRO-002,Roll natural period,34.2,s,Operating draft,03-hydrodynamic-analysis.md,Above wave band
+HYDRO-003,Pitch natural period,15.7,s,Operating draft,03-hydrodynamic-analysis.md,Marginal — mitigation needed
+HYDRO-004,Moon pool piston period,21.6,s,Operating draft,06-moon-pool-design.md,Above wave band (marginal)
+HYDRO-005,Significant heave amplitude (Hs=3m),0.24,m,Operating seas,03-hydrodynamic-analysis.md,—
+HYDRO-006,Significant roll amplitude (Hs=3m),1.2,degrees,Operating seas,03-hydrodynamic-analysis.md,[ASSUMPTION]
+DP-001,Number of thrusters,10,count,—,04-dynamic-positioning.md,Azimuth type
+DP-002,Thruster power each,6000,kW,Continuous,04-dynamic-positioning.md,—
+DP-003,Bollard pull each,450,tonnes,Forward,04-dynamic-positioning.md,—
+DP-004,Total bollard pull,4500,tonnes,All thrusters,04-dynamic-positioning.md,—
+DP-005,DP class,DP3,class,DNV DYNPOS-3 AUTRO,04-dynamic-positioning.md,—
+DP-006,Watch circle (green) at 200m depth,5,m,Operating,04-dynamic-positioning.md,—
+DP-007,Watch circle (green) at 1680m depth,10,m,Operating,04-dynamic-positioning.md,—
+LIFT-001,Number of strand jacks,28,count,14 per hull side,07-heavy-lift-system.md,—
+LIFT-002,Strand jack SWL each,500,tonnes,—,07-heavy-lift-system.md,—
+LIFT-003,Total lift capacity,14000,tonnes,28 × 500 t,07-heavy-lift-system.md,Design load: 12000 t
+LIFT-004,Lift speed,0.5,m/min,Normal operations,07-heavy-lift-system.md,0.1 m/min at surface
+LIFT-005,AHC stroke,±2.5,m,—,07-heavy-lift-system.md,—
+LIFT-006,AHC max velocity,2.0,m/s,—,07-heavy-lift-system.md,—
+LIFT-007,Sling SWL,600,tonnes,76mm wire rope,07-heavy-lift-system.md,SF = 1.39
+LIFT-008,Buoyancy pontoons,18,count,12 primary + 6 supplementary,07-heavy-lift-system.md,Mode B/C operations
+LIFT-009,Max operating depth (Mode A),200,m,Strand jack only,07-heavy-lift-system.md,—
+LIFT-010,Max operating depth (Mode C),2000,m,Buoyancy + strand jack,07-heavy-lift-system.md,—
+LIFT-011,Lifting yoke weight,800,tonnes,—,07-heavy-lift-system.md,[ASSUMPTION]
+PWR-001,Main generators,6,count,Wartsila 16V46F or equiv,09-power-generation.md,—
+PWR-002,Generator power each,18.6,MW,MCR ISO conditions,09-power-generation.md,—
+PWR-003,Total installed power,111.6,MW,6 × 18.6,09-power-generation.md,—
+PWR-004,Peak demand (survival),70.6,MW,DP at max + hotel,09-power-generation.md,—
+PWR-005,Peak demand (lift operations),68.5,MW,DP + lift + hotel,09-power-generation.md,—
+PWR-006,SFOC at 85% MCR,185,g/kWh,MGO fuel,09-power-generation.md,—
+PWR-007,Fuel endurance (transit),55.5,days,At 27.6 MW,09-power-generation.md,—
+PWR-008,Fuel endurance (lift ops),22.4,days,At 68.5 MW,09-power-generation.md,—
+PWR-009,Emergency generators,2,count,1500 kW each,09-power-generation.md,72 hr autonomy
+PWR-010,UPS capacity,2000,kWh,4 × 500 kWh LiFePO4,09-power-generation.md,30 min backup
+NUC-001,K-27 estimated activity,3700,TBq,Cs-137 dominated,08-nuclear-safety-containment.md,[ASSUMPTION]
+NUC-002,K-278 estimated activity,5500,TBq,Worst case,08-nuclear-safety-containment.md,[ASSUMPTION]
+NUC-003,TVLs required,10.3,count,Cs-137 662 keV,08-nuclear-safety-containment.md,0.025 mSv/hr target
+NUC-004,Reactor bay lead shielding,250,mm,Wall thickness,08-nuclear-safety-containment.md,5.8 TVL
+NUC-005,Reactor bay concrete,500,mm,Barite concrete walls,08-nuclear-safety-containment.md,4.2 TVL
+NUC-006,Shielding weight,6500,tonnes,All reactor bay shielding,08-nuclear-safety-containment.md,[ASSUMPTION]
+NUC-007,Water treatment rate,200,m³/hr,IX + RO system,08-nuclear-safety-containment.md,DF > 10⁴
+NUC-008,Discharge limit,1,Bq/L,Treated water,08-nuclear-safety-containment.md,IAEA authorization
+NUC-009,Dose limit (workers),20,mSv/yr,ICRP 103,08-nuclear-safety-containment.md,—
+NUC-010,Reactor bay ventilation rate,108000,m³/hr,10 ACH,08-nuclear-safety-containment.md,Negative pressure
+STRUCT-001,Sagging BM,2650,MN·m,Design wave,05-structural-design.md,—
+STRUCT-002,Split force,239,MN,100-yr transverse,05-structural-design.md,—
+STRUCT-003,Torsional moment,7319,MN·m,Design wave,05-structural-design.md,—
+STRUCT-004,Pontoon shell thickness,25,mm,NV-DH36,05-structural-design.md,—
+STRUCT-005,Column shell thickness,25,mm,NV-EH36,05-structural-design.md,Ice belt: 32 mm
+STRUCT-006,Moon pool edge girder depth,2.5,m,Built-up I-section,06-moon-pool-design.md,EH40 flanges
+STRUCT-007,Gantry beam span,28,m,Channel width + cantilevers,07-heavy-lift-system.md,—
+STRUCT-008,Gantry beam utilization,0.24,ratio,Strength check — stiffness governed,07-heavy-lift-system.md,—
+ENV-001,100-yr Hs (Norwegian Sea),15.0,m,Design wave,02-environmental-design-basis.md,Governs structural
+ENV-002,100-yr Hs (N. Atlantic),16.5,m,Extreme,02-environmental-design-basis.md,—
+ENV-003,100-yr wind speed (1-min),45,m/s,At 10 m elevation,02-environmental-design-basis.md,—
+ENV-004,100-yr current (surface),1.5,m/s,—,02-environmental-design-basis.md,—
+ENV-005,Design ice thickness,1.5,m,Multi-year ice (Kara Sea),02-environmental-design-basis.md,—
+ENV-006,Atmospheric icing,540,tonnes,Maximum accumulation,02-environmental-design-basis.md,—
+ACCOM-001,Total POB,150,persons,Including spare berths,11-accommodation-systems.md,—
+ACCOM-002,Lifeboats,4,count,50-person TELB,11-accommodation-systems.md,200% POB evacuation
+ACCOM-003,Helideck D-value,25,m,S-92 class,11-accommodation-systems.md,—
+ACCOM-004,Potable water storage,200,m³,6.7 days reserve,11-accommodation-systems.md,—
+OPS-001,K-159 campaign duration,28,days,Shallow recovery,12-operational-modes.md,—
+OPS-002,K-278 campaign duration,59,days,Deep recovery,12-operational-modes.md,—
+OPS-003,Operating weather limit (Hs),5.0,m,Station-keeping,12-operational-modes.md,—
+OPS-004,Lift weather limit (Hs),3.0,m,Lift operations,12-operational-modes.md,—
+BUILD-001,Construction duration,48,months,4 years,13-construction-specification.md,—
+BUILD-002,Construction cost,2872,USD million,AACE Class 4 ±30%,13-construction-specification.md,[ASSUMPTION]
+BUILD-003,Sea trials duration,15,days,—,13-construction-specification.md,—
+SUB-001,K-27 depth,33,m,Kara Sea,sunken-nuclear-submarines-report.md,Priority 1
+SUB-002,K-159 depth,200,m,Barents Sea,sunken-nuclear-submarines-report.md,Priority 2
+SUB-003,K-278 depth,1680,m,Norwegian Sea,sunken-nuclear-submarines-report.md,Priority 3
+SUB-004,USS Thresher depth,2560,m,N. Atlantic,sunken-nuclear-submarines-report.md,Priority 4
+SUB-005,USS Scorpion depth,3000,m,N. Atlantic (Azores),sunken-nuclear-submarines-report.md,Priority 5

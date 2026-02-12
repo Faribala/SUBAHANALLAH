@@ -1,0 +1,77 @@
+BOM_ID,Category,Item_Description,Specification,Quantity,Unit,Unit_Weight_t,Total_Weight_t,Unit_Cost_USD,Total_Cost_USD,Lead_Time_Months,Supplier_Type,Reference_Doc
+BOM-001,Hull Steel,Pontoon shell plate NV-DH36 25mm,DNV Pt.2 Ch.2 DH36; 25mm × various sizes,4200,tonnes,1.0,4200,1500,6300000,6,Steel mill,05-structural-design.md
+BOM-002,Hull Steel,Pontoon internal structure NV-DH36 16-20mm,DNV DH36; stiffeners and girders,8400,tonnes,1.0,8400,1600,13440000,6,Steel mill,05-structural-design.md
+BOM-003,Hull Steel,Pontoon transverse bulkheads NV-DH36 20mm,Watertight subdivision bulkheads,5400,tonnes,1.0,5400,1500,8100000,6,Steel mill,05-structural-design.md
+BOM-004,Hull Steel,Column shell plate NV-EH36 25-35mm,DNV EH36; ice belt 32mm; splash zone 35mm,3200,tonnes,1.0,3200,1800,5760000,8,Steel mill,05-structural-design.md
+BOM-005,Hull Steel,Column internal structure NV-EH36 16-25mm,Stiffeners girders and platforms,4800,tonnes,1.0,4800,1700,8160000,8,Steel mill,05-structural-design.md
+BOM-006,Hull Steel,Deck box transverse girders NV-DH36 14-25mm,Main deck and equipment deck structure,4500,tonnes,1.0,4500,1500,6750000,6,Steel mill,05-structural-design.md
+BOM-007,Hull Steel,Deck box longitudinal structure NV-DH36 14-20mm,Longitudinal deck girders and plating,2500,tonnes,1.0,2500,1500,3750000,6,Steel mill,05-structural-design.md
+BOM-008,Hull Steel,Gantry beams NV-EH40 30-50mm,7 box girder beams 28m span × 4m × 3m,1500,tonnes,1.0,1500,2200,3300000,10,Specialist fabricator,07-heavy-lift-system.md
+BOM-009,Hull Steel,Column-pontoon bracket NV-EH47 40-50mm,Critical connection brackets; 8 sets,800,tonnes,1.0,800,3000,2400000,10,Specialist fabricator,05-structural-design.md
+BOM-010,Hull Steel,Moon pool edge girders NV-EH40 25-40mm,Edge girders 135m × 2 sides,600,tonnes,1.0,600,2200,1320000,8,Steel mill,06-moon-pool-design.md
+BOM-011,Hull Steel,Miscellaneous brackets and stiffeners DH36,Various secondary structure,5300,tonnes,1.0,5300,1400,7420000,6,Steel mill,05-structural-design.md
+BOM-012,Hull Steel,Accommodation structure DH36 8-14mm,Superstructure framing and plating,1800,tonnes,1.0,1800,1500,2700000,6,Steel mill,11-accommodation-systems.md
+BOM-013,Hull Steel,Reactor bay structure EH36 20-35mm,Heavy framing for shielding support,1200,tonnes,1.0,1200,1800,2160000,8,Specialist fabricator,08-nuclear-safety-containment.md
+BOM-014,Shielding,Lead plate 250mm,99.9% pure lead; reactor bay walls,2400,tonnes,1.0,2400,4500,10800000,12,Lead supplier,08-nuclear-safety-containment.md
+BOM-015,Shielding,Lead plate 100-200mm,Reactor bay roof and secondary walls,800,tonnes,1.0,800,4500,3600000,12,Lead supplier,08-nuclear-safety-containment.md
+BOM-016,Shielding,Barite concrete pre-cast panels,3500 kg/m³ density; reactor bay walls,2800,tonnes,1.0,2800,800,2240000,8,Concrete supplier,08-nuclear-safety-containment.md
+BOM-017,Shielding,Steel floor plate 300mm,Reactor bay floor; NV-EH36,500,tonnes,1.0,500,2000,1000000,8,Steel mill,08-nuclear-safety-containment.md
+BOM-018,Propulsion,Azimuth thruster 6000 kW with nozzle,Kongsberg AZP150 or equiv; ICE-1A; FP prop 5.0m dia,10,unit,120.0,1200,8000000,80000000,20,OEM,04-dynamic-positioning.md
+BOM-019,Power,Main diesel generator set 18.6 MW,Wartsila 16V46F or equiv; 514 rpm; MGO fuel,6,unit,190.0,1140,15000000,90000000,18,OEM,09-power-generation.md
+BOM-020,Power,Emergency diesel generator 1500 kW,High-speed diesel; auto-start <45s; 72hr fuel,2,unit,15.0,30,500000,1000000,10,OEM,09-power-generation.md
+BOM-021,Power,11 kV switchgear panel,Vacuum circuit breaker type; arc-resistant,4,unit,8.0,32,1200000,4800000,12,Electrical OEM,09-power-generation.md
+BOM-022,Power,Variable frequency drive 6000 kW,AFE type; 11kV/6.6kV; IEEE 519 compliant,10,unit,5.0,50,2500000,25000000,14,Electrical OEM,09-power-generation.md
+BOM-023,Power,UPS system 250 kVA with LiFePO4 battery,Online double-conversion; 500 kWh battery per unit,4,unit,4.0,16,350000,1400000,8,Electrical OEM,09-power-generation.md
+BOM-024,Heavy Lift,Strand jack unit 500t SWL,Hydraulic strand jack; 55 strands 15.2mm; 250mm stroke,28,unit,20.0,560,3000000,84000000,18,Enerpac/Mammoet,07-heavy-lift-system.md
+BOM-025,Heavy Lift,AHC hydraulic cylinder,400mm bore; ±2.5m stroke; 2.0 m/s max velocity,28,unit,10.0,280,500000,14000000,14,Hydraulic OEM,07-heavy-lift-system.md
+BOM-026,Heavy Lift,Hydraulic power unit,4000 kW each; 4 independent units for DP3,4,unit,80.0,320,2000000,8000000,12,Hydraulic OEM,07-heavy-lift-system.md
+BOM-027,Heavy Lift,Lift cable (strand),15.2mm 7-wire 1860 MPa; 250m lengths,1540,coil,0.5,770,5000,7700000,8,Wire rope OEM,07-heavy-lift-system.md
+BOM-028,Heavy Lift,Lifting yoke frame,Welded steel frame 120m × 18m; EH40,1,unit,800.0,800,12000000,12000000,12,Specialist fabricator,07-heavy-lift-system.md
+BOM-029,Heavy Lift,Wire rope slings 76mm,6×36 IWRC; 76mm diameter; various lengths,24,unit,2.0,48,25000,600000,6,Wire rope OEM,07-heavy-lift-system.md
+BOM-030,Heavy Lift,Buoyancy pontoon 540 m³,15×6×6 m steel pontoon; ballast/deballast system,18,unit,80.0,1440,5000000,90000000,16,Specialist fabricator,07-heavy-lift-system.md
+BOM-031,ROV,Work-class ROV 3000m rated,150 HP; 7-function arms; tooling skid,4,unit,6.0,24,6000000,24000000,12,ROV OEM,07-heavy-lift-system.md
+BOM-032,ROV,ROV LARS (Launch and Recovery System),Over-side A-frame; cursor; winch,2,unit,40.0,80,4000000,8000000,10,ROV OEM,07-heavy-lift-system.md
+BOM-033,DP,DP control system DYNPOS-3,Triple-redundant DP computers; operator stations,1,system,5.0,5,15000000,15000000,14,Kongsberg/Nautronix,04-dynamic-positioning.md
+BOM-034,DP,DGPS reference system,Dual-frequency differential GPS receivers,3,unit,0.1,0.3,150000,450000,4,Navigation OEM,04-dynamic-positioning.md
+BOM-035,DP,HPR acoustic reference,Hydroacoustic position reference system,2,unit,0.5,1,500000,1000000,6,Kongsberg,04-dynamic-positioning.md
+BOM-036,DP,Taut wire reference system,Wire-based position measurement to seabed,1,unit,5.0,5,300000,300000,4,Survey OEM,04-dynamic-positioning.md
+BOM-037,Ballast,Ballast pump submersible 1500 m³/hr,Centrifugal submersible; 250 kW motor,8,unit,5.0,40,200000,1600000,8,Pump OEM,10-stability-ballast.md
+BOM-038,Ballast,Emergency ballast pump 500 m³/hr,Independent power supply; 100 kW,4,unit,3.0,12,100000,400000,6,Pump OEM,10-stability-ballast.md
+BOM-039,Ballast,Ballast piping 500mm NB,Carbon steel; coated; flange connections,2500,metres,0.05,125,200,500000,6,Piping supplier,10-stability-ballast.md
+BOM-040,Nuclear,Water treatment IX/RO system,200 m³/hr; Cs-selective zeolite + mixed bed; 2×RO,1,system,250.0,250,8000000,8000000,14,Nuclear equipment OEM,08-nuclear-safety-containment.md
+BOM-041,Nuclear,HEPA filter bank (2-stage),99.97% @ 0.3µm; 108000 m³/hr capacity,2,unit,15.0,30,500000,1000000,8,HVAC specialist,08-nuclear-safety-containment.md
+BOM-042,Nuclear,Charcoal adsorber (I-131),Impregnated activated charcoal filter bank,2,unit,8.0,16,200000,400000,6,Nuclear specialist,08-nuclear-safety-containment.md
+BOM-043,Nuclear,Radiation area monitors,Gamma; assorted ranges; 0.1 µSv/hr to 10 Sv/hr,40,unit,0.02,0.8,15000,600000,4,Rad instrumentation,08-nuclear-safety-containment.md
+BOM-044,Nuclear,Neutron detectors,BF3 or He-3 proportional counters,4,unit,0.05,0.2,50000,200000,6,Rad instrumentation,08-nuclear-safety-containment.md
+BOM-045,Nuclear,Electronic personal dosimeters,Real-time dose and dose rate display,80,unit,0.0002,0.016,2000,160000,2,Rad instrumentation,08-nuclear-safety-containment.md
+BOM-046,Nuclear,Gimbal cradle for K-27,2-axis gimbal ±5°; hydraulic; IMU-controlled; 200t,1,unit,200.0,200,5000000,5000000,16,Specialist fabricator,08-nuclear-safety-containment.md
+BOM-047,Nuclear,50t overhead crane (reactor bay),Electric overhead travelling; rad-hardened; remote operation,1,unit,120.0,120,3000000,3000000,12,Crane OEM,08-nuclear-safety-containment.md
+BOM-048,Accommodation,Cabin modules (2-person),Pre-fabricated; en-suite; 4.2×2.7 m interior,65,unit,2.0,130,35000,2275000,6,Outfitter,11-accommodation-systems.md
+BOM-049,Accommodation,Cabin modules (1-person),Pre-fabricated; en-suite; 3.6×2.7 m interior,20,unit,1.5,30,30000,600000,6,Outfitter,11-accommodation-systems.md
+BOM-050,Accommodation,Galley equipment package,Commercial marine galley; 150 persons,1,lot,20.0,20,800000,800000,4,Marine galley OEM,11-accommodation-systems.md
+BOM-051,Safety,TELB (totally enclosed lifeboat) 50-person,SOLAS-approved; gravity davit; freefall option,4,unit,10.0,40,500000,2000000,8,Lifeboat OEM,11-accommodation-systems.md
+BOM-052,Safety,Davit-launched life raft 25-person,SOLAS-approved; HRU-released,8,unit,0.3,2.4,8000,64000,4,Life raft OEM,11-accommodation-systems.md
+BOM-053,Safety,Fast rescue craft,GRP; 6-person; 25 kn; SOLAS,2,unit,2.5,5,200000,400000,6,FRC OEM,11-accommodation-systems.md
+BOM-054,Helideck,Helideck structure and equipment,28×28m aluminium deck; lighting; foam system; net,1,unit,200.0,200,5000000,5000000,10,Helideck specialist,11-accommodation-systems.md
+BOM-055,Coatings,External anti-corrosion + anti-fouling,Jotun or equiv; underwater and splash zone,85000,m²,0.001,85,40,3400000,4,Coatings supplier,13-construction-specification.md
+BOM-056,Coatings,Ballast tank internal coating PSPC,Epoxy 320 µm DFT; PSPC compliant,50000,m²,0.001,50,25,1250000,4,Coatings supplier,13-construction-specification.md
+BOM-057,Coatings,Reactor bay decontaminable coating,Smooth non-porous epoxy 500 µm DFT,3000,m²,0.001,3,80,240000,4,Nuclear coatings,08-nuclear-safety-containment.md
+BOM-058,CP,Sacrificial anodes (Al-Zn-In),Hull cathodic protection; 25-year design life,800,unit,0.1,80,150,120000,6,CP supplier,05-structural-design.md
+BOM-059,CP,ICCP system,Impressed current cathodic protection; 4 zones,4,unit,2.0,8,200000,800000,8,CP supplier,05-structural-design.md
+BOM-060,Mooring,Anchor chain (84mm R4s studless),For 8-line taut-leg mooring system,2400,metres,0.15,360,400,960000,8,Chain supplier,04-dynamic-positioning.md
+BOM-061,Mooring,Drag embedment anchors 30t,Vryhof Stevpris or equiv; 30t holding,8,unit,30.0,240,150000,1200000,8,Anchor OEM,04-dynamic-positioning.md
+BOM-062,Mooring,Mooring winches 200t pull,Split drum; auto-tension; brake,8,unit,25.0,200,500000,4000000,10,Winch OEM,04-dynamic-positioning.md
+BOM-063,HVAC,Air handling units 30000 m³/hr,Heating/cooling coils; filters; fans,4,unit,8.0,32,300000,1200000,8,HVAC OEM,11-accommodation-systems.md
+BOM-064,HVAC,Refrigeration compressor 500 kW,R-410A; seawater-cooled condenser,2,unit,5.0,10,200000,400000,6,HVAC OEM,11-accommodation-systems.md
+BOM-065,Fire,Fire main pump 250 m³/hr,Centrifugal; electric-driven; 2 main + 1 emergency diesel,3,unit,3.0,9,100000,300000,6,Pump OEM,11-accommodation-systems.md
+BOM-066,Fire,CO2 flooding system (engine rooms),High-pressure CO2; 4 protected spaces,4,unit,10.0,40,250000,1000000,8,Fire protection OEM,11-accommodation-systems.md
+BOM-067,Marine,Fuel transfer pumps 50 m³/hr,Positive displacement; for MGO,4,unit,1.0,4,30000,120000,4,Pump OEM,09-power-generation.md
+BOM-068,Marine,Fuel purifier/separator,Centrifugal separator for MGO purification,2,unit,3.0,6,150000,300000,6,Separator OEM,09-power-generation.md
+BOM-069,Marine,Fresh water generator (WHR),Flash evaporator; 30 m³/day; waste heat powered,2,unit,5.0,10,200000,400000,8,FW generator OEM,09-power-generation.md
+BOM-070,Marine,RO desalination unit 30 m³/day,Reverse osmosis freshwater maker,2,unit,3.0,6,150000,300000,6,Desal OEM,11-accommodation-systems.md
+BOM-071,Communications,VSAT terminal C-band,Stabilised antenna; 20 Mbps,2,unit,1.5,3,500000,1000000,4,Satcom OEM,11-accommodation-systems.md
+BOM-072,Communications,GMDSS A3 equipment package,MF/HF DSC; VHF DSC; EPIRB; SART; Navtex,1,lot,0.5,0.5,200000,200000,4,Nav/comm OEM,11-accommodation-systems.md
+BOM-073,Moon Pool,Perforated damping plates,20mm DH36; 15% perforated; 20×10m each,6,unit,25.0,150,200000,1200000,6,Steel fabricator,06-moon-pool-design.md
+BOM-074,Moon Pool,Retractable end barrier (bow),Steel box construction; hydraulic retract,1,unit,100.0,100,2000000,2000000,10,Specialist fabricator,06-moon-pool-design.md
+BOM-075,Moon Pool,Submarine receiving cradle,125×14m; 12000t capacity; 24 adjustable saddles,1,unit,350.0,350,8000000,8000000,12,Specialist fabricator,06-moon-pool-design.md
+BOM-076,Moon Pool,Moon pool pumps submersible 2500 m³/hr,Submersible centrifugal; 300 kW,4,unit,4.0,16,150000,600000,6,Pump OEM,06-moon-pool-design.md
